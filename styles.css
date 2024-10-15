@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    gap:150px;
+}
+div button{
+    width:50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+ 
+.for-button {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.shop {
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: green;
+    border:none;
+    margin-top: 50px;
+}
+.for-button h1{
+    margin: 0 auto;
+    width: 200px;
+    height: 70px;
+    
+}
+footer {
+    background-color: rgb(43, 43, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 5px;
+    padding: 15px;
+}
+.media {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.media li {
+    width: 80px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+ 
+}
+.border {
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+}
+section{
+    display: flex;
+}
+.h1{ display: flex;
+    text-align: center;
+}
+.for-products {display: flex;
+justify-content: center;
+gap:60px;
+margin-bottom: 30px;
+}
+.for-products div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.for-products div button{
+    background-color: blue;
+    color: white;
+    border:none;
+    width: 90px;
+    height: 30px;
+}
+
